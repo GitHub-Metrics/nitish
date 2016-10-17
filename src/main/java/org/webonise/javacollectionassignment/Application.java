@@ -108,7 +108,7 @@ public class Application {
       System.out.println(userMap.containValue(userMap.get(2)));
 
       System.out.println("\n==============Add User to UserMap===============");
-      User user = new User("Kuldeep Singh", "18-06-1993", "kuldeepsingh@gmial.com");
+      User user = new User("Kuldeep Singh", "18-06-1993", "kuldeepsingh@gmail.com");
       userMap.add(3, user);
       userMap.displayMap();
 
